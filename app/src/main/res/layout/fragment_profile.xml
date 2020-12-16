@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_margin="10dp"
+       android:padding="10dp"
+       >
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Your Name: "
+           android:id="@+id/edtProfileName"
+           android:layout_marginBottom="10dp"
+           />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Your Bio: "
+           android:id="@+id/edtProfileBio"
+           android:layout_marginBottom="10dp"
+           />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Your Profession: "
+           android:id="@+id/edtProfileProfession"
+           android:layout_marginBottom="10dp"
+           />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Your Hobbies: "
+           android:id="@+id/edtProfileHobbies"
+           android:layout_marginBottom="10dp"
+           />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Your Fav. Sports: "
+           android:id="@+id/edtProfileSports"
+           android:layout_marginBottom="10dp"
+           />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+           android:text="Update"
+           android:id="@+id/btnUpdate"
+           />
+
+
+   </LinearLayout>
+
+</RelativeLayout>
